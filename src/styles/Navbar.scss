@@ -1,0 +1,41 @@
+.navbar-overview {
+  width: 100%;
+  background-color: #D8D8D8;
+  border-bottom: 1px solid #ececec;
+  .navbar-container {
+    margin: 0 auto;
+    background-color: #D8D8D8;
+    .navbar-layout {
+      width: 1440px;
+       @media screen and (max-width: 1350px) {
+         width: 1012px;
+       }
+      margin: 0 auto;
+      height: 60px;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: #D8D8D8;
+      .logout-view{
+        background-color: #36B37E;
+        width: 150px;
+        cursor: pointer;
+        text-align: center;
+        padding: 5px 0px;
+        font-size: 16px;
+        font-family: "Open-sans";
+        border-radius: 6px;
+        font-weight: bold;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}

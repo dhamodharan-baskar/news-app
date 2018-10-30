@@ -1,0 +1,6 @@
+.newsfeed-overview {
+  width: 100%; }
+  .newsfeed-overview .news-tab-list {
+    width: 100%;
+    display: flex;
+    justify-content: center; }

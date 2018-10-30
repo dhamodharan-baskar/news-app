@@ -27,8 +27,9 @@ class Login extends Component {
       password
     } = this.state
     if(email && password){
-      if(email == 'dhamo@gmail.com' && password == 'admin123'){
+      if(email === 'dhamo@gmail.com' && password === 'admin123'){
         await localStorage.setItem('access_token', 'f8eafb09acc24aa59edb5e53126e7464');
+        this.props.history.push('/feed');
         this.setState({errorMessage: ''})
       }
       else {
